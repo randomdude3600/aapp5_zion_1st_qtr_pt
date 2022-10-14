@@ -1,0 +1,17 @@
+.image_border_circle {	
+	display: flex;
+
+	align-items: center;
+	justify-content: center;
+
+	border-color: var(--bg-secondary);
+	border-radius: 50%;
+}
+
+.image_transform_container {
+	visibility: hidden;
+	opacity: 0;
+
+	-webkit-transition: opacity var(--transition-speed), visibility var(--transition-speed);
+	transition: opacity var(--transition-speed), visibility var(--transition-speed);
+}
