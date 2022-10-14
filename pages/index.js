@@ -5,23 +5,29 @@ import Image from "next/image";
 import Head from 'next/head';
 
 import React, { useState, useEffect } from "react";
-import image from 'next/image';
+import matter from "gray-matter";
 
 import debug_ from '../components/debug_helper';
 
 import home_styles from '../styles/Home.module.css';
 
-export default function Home(props) {
+import Posts from "../components/posts";
+
+export default function Home({m_posts}) {
+
 	return (
 		<>
 			<Head>
 				<title>Home</title>
 			</Head>
-			<main className={""}>
-				<div className={""}>
-					<h1>{props.posts}</h1>
-
-					{debug_(props.main_obj)}
+			<main className={home_styles.main_div}>
+				<div className={home_styles.inner_div} >
+					{debug_(m_posts)}
+					{m_posts.map((posts, i) => {
+						return (
+							<Posts props={posts}/>
+						)
+					})}
 				</div>
 			</main>
 		</>	
@@ -29,14 +35,30 @@ export default function Home(props) {
 }
 
 export async function getStaticProps() {
-	const image_path = `public/img/posts`;
-	const files = fs.readdirSync(image_path);
+	const md_path = path.join('pages/posts');
+	const files = fs.readdirSync(md_path);
 
-	debug_(files);
+	const posts = files.map((filename) => {
+		const slug = filename.replace('.md', '');
+		
+		const markdown_with_meta = fs.readFileSync(
+			path.join(md_path, filename),
+			'utf-8'
+		);
 
-	return{
+		const {data:frontmatter} = matter(markdown_with_meta)
+
+		return {
+			slug,
+			frontmatter,
+		}
+	})
+
+	// debug_(posts);
+
+	return {
 		props: {
-			posts: "The post",
+			m_posts: posts,
 		},
 	}
 }

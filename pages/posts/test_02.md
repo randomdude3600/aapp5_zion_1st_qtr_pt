@@ -1,5 +1,5 @@
 ---
-title: 'Test Post'
+title: 'Test Post 2'
 date: 'October 14, 2021'
 excerpt: 'sample excerpt'
 cover_image: '/img/posts/test (1).png'
@@ -10,4 +10,4 @@ cover_image: '/img/posts/test (1).png'
 * Item 1
 * Item 2
 
-Hello fucking world
+Hello world :)
