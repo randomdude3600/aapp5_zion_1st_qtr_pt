@@ -6,17 +6,30 @@ import Link from "next/link";
 
 import debug_ from "../../components/debug_helper";
 
+import post_styles from "../../styles/Posts.module.css"
+
 import matter from "gray-matter";
-import {marked} from "marked";
+var marked = require('marked-katex');
+import katex from 'katex';
+
+marked.setOptions({
+	kaTex: katex
+});
+ 
+debug_(marked('I am using __markdown__.'));
 
 export default function PostPage({ frontmatter: {
 	title,
 	date,
 	cover_image
 }, slug, content }) {
+	
+	const html = marked(content);
+
+	console.log(content)
 
 	return (
-		<div>
+		<div className={post_styles.post_container}>
 			<Image
 				className={``}
 					width={`100pt`}
@@ -26,8 +39,10 @@ export default function PostPage({ frontmatter: {
 			/>
 			<h1>{title}</h1>
 			<h4>{date}</h4>
-			{/* parse content with marked */}
-			<div dangerouslySetInnerHTML={{__html: marked(content)}}>
+
+			<div className={post_styles.katex_container}>
+				<div dangerouslySetInnerHTML={{__html: html}}>
+				</div>
 			</div>
 		</div>
 	)
