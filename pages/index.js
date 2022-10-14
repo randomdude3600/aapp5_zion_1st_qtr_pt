@@ -1,10 +1,15 @@
-import Image from "next/image";
+import fs from 'fs';
+import path from 'path';
 
+import Image from "next/image";
 import Head from 'next/head';
 
-import home_styles from '../styles/Home.module.css';
-
 import React, { useState, useEffect } from "react";
+import image from 'next/image';
+
+import debug_ from '../components/debug_helper';
+
+import home_styles from '../styles/Home.module.css';
 
 export default function Home(props) {
 	return (
@@ -14,13 +19,24 @@ export default function Home(props) {
 			</Head>
 			<main className={""}>
 				<div className={""}>
-					<h1>Hello</h1>
+					<h1>{props.posts}</h1>
 
-
-					
-					{(process && process.env.NODE_ENV === 'development') ? console.log(props.main_obj) : <></>}
+					{debug_(props.main_obj)}
 				</div>
 			</main>
 		</>	
 	)
+}
+
+export async function getStaticProps() {
+	const image_path = `public/img/posts`;
+	const files = fs.readdirSync(image_path);
+
+	debug_(files);
+
+	return{
+		props: {
+			posts: "The post",
+		},
+	}
 }
