@@ -9,14 +9,9 @@ import debug_ from "../../components/debug_helper";
 import post_styles from "../../styles/Posts.module.css"
 
 import matter from "gray-matter";
+
 var marked = require('marked-katex');
 import katex from 'katex';
-
-marked.setOptions({
-	kaTex: katex
-});
- 
-debug_(marked('I am using __markdown__.'));
 
 export default function PostPage({ frontmatter: {
 	title,
