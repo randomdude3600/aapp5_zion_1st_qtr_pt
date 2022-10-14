@@ -6,3 +6,5 @@ cover_image: '/img/posts/test (1).png'
 ---
 
 `$$c=\sqrt{a^2 + b^2}$$`
+
+`$$ \frac{-b+\sqrt{-b^2-4ac}}{2a} $$`

@@ -9,9 +9,14 @@ import debug_ from "../../components/debug_helper";
 import post_styles from "../../styles/Posts.module.css"
 
 import matter from "gray-matter";
-
 var marked = require('marked-katex');
 import katex from 'katex';
+
+var renderer = new marked.Renderer();
+
+marked.setOptions({
+	kaTex: katex
+});
 
 export default function PostPage({ frontmatter: {
 	title,
