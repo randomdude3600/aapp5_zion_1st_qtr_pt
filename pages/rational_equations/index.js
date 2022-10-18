@@ -30,7 +30,7 @@ export default function rational_equation({paths}) {
 				{paths.map((i, k) => {
 					return (
 						<div>
-							<Link href={`${cwd_file_path}/${i.params.slug}`}>
+							<Link key={k} href={`${cwd_file_path}/${i.params.slug}`}>
 								<a>go here</a>
 							</Link>
 							{debug_(`${cwd_file_path}/${i.params.slug}`)}
