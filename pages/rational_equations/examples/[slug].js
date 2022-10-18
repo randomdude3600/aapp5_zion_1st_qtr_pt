@@ -6,7 +6,8 @@ import { getStaticPathsHelper, getStaticPropsHelper  } from "../../../components
 
 import post_styles from "../../../styles/Posts.module.css"
 
-var marked = require('marked-katex');
+// var marked = require('marked-katex');
+import marked from "marked";
 import katex from 'katex';
 
 const file_path = "posts/rational_equations/examples";
@@ -31,12 +32,12 @@ export default function PostPage({ frontmatter: {
 			<div className={post_styles.post_container}>
 				{(cover_image ? 
 					<Image
-					className={``}
-						width={`100pt`}
-						height={`100pt`}
-						src={cover_image}
-						layout="intrinsic"
-				/> : <></>				
+						className={``}
+							width={`100pt`}
+							height={`100pt`}
+							src={cover_image}
+							layout="intrinsic"
+					/> : <></>				
 				)}
 				<h1>{title}</h1>
 				<h4>{date}</h4>

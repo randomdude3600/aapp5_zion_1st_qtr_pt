@@ -8,8 +8,6 @@ import debug_ from '../components/debug_helper';
 
 import home_styles from '../styles/Home.module.css';
 
-import Posts from "../components/posts";
-
 export default function Home({m_posts}) {
 
 	return (
