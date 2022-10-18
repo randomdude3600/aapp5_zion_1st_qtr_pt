@@ -3,6 +3,9 @@ import path from "path";
 import debug_ from "./debug_helper";
 import matter from "gray-matter";
 
+// import * as marked from "marked";
+// import katex from 'katex';
+
 export async function getStaticPathsHelper(file_path) {
 	const files = fs.readdirSync(path.join(file_path));
 
@@ -20,6 +23,10 @@ export async function getStaticPathsHelper(file_path) {
 }
 
 export async function getStaticPropsHelper(file_path, slug) {
+	// marked.setOptions({
+	// 	kaTex: katex
+	// });
+
 	const md_path = path.join(file_path, slug + '.md');
 
 	const markdown_with_meta = fs.readFileSync(md_path, 'utf-8');
@@ -27,6 +34,8 @@ export async function getStaticPropsHelper(file_path, slug) {
 	debug_("slug.js: " + markdown_with_meta);
 
 	const {data:frontmatter, content} = matter(markdown_with_meta)	
+
+	// const content = marked.marked(raw_content);
 
 	return {
 		props: {
