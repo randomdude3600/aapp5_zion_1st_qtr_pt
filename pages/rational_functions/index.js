@@ -11,8 +11,8 @@ import home_styles from '../../styles/Home.module.css';
 
 import { getStaticPathsHelper  } from "../../components/page_generator";
 
-const file_path = "posts/rational_equations/examples";
-const cwd_file_path = "rational_equations/examples";
+const file_path = "posts/rational_functions/examples";
+const cwd_file_path = "rational_functions/examples";
 
 export default function rational_equation({paths}) {
 
