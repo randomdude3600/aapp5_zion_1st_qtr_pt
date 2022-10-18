@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 
 import Image from "next/image";
+import Head from "next/head";
 import Link from "next/link";
 
 import debug_ from "../../components/debug_helper";
@@ -24,25 +25,30 @@ export default function PostPage({ frontmatter: {
 	
 	const html = marked(content);
 
-	console.log(content)
-
 	return (
-		<div className={post_styles.post_container}>
-			<Image
-				className={``}
-					width={`100pt`}
-					height={`100pt`}
-					src={cover_image}
-					layout="intrinsic"
-			/>
-			<h1>{title}</h1>
-			<h4>{date}</h4>
+		<>
+			<Head>
+				<title>{slug}</title>
+			</Head>
+			<div className={post_styles.post_container}>
+				{(cover_image ? 
+					<Image
+					className={``}
+						width={`100pt`}
+						height={`100pt`}
+						src={cover_image}
+						layout="intrinsic"
+				/> : <></>				
+				)}
+				<h1>{title}</h1>
+				<h4>{date}</h4>
 
-			<div className={post_styles.katex_container}>
-				<div dangerouslySetInnerHTML={{__html: html}}>
+				<div className={post_styles.katex_container}>
+					<div dangerouslySetInnerHTML={{__html: html}}>
+					</div>
 				</div>
 			</div>
-		</div>
+		</>
 	)
 }
 
