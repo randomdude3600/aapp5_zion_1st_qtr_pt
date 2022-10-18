@@ -20,7 +20,7 @@ export default function Home({m_posts}) {
 				<Link href={`/rational_equations`}>
 					<a>Rational Equations</a>
 				</Link>
-				<Link href={`/rational_expressions`}>
+				<Link href={`/rational_functions`}>
 					<a>Rational Expressions</a>
 				</Link>
 				<Link href={`/rational_inequalities`}>
