@@ -1,17 +1,15 @@
-import fs from "fs";
-import path from "path";
-
 import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
 
-import debug_ from "../../components/debug_helper";
+import { getStaticPathsHelper, getStaticPropsHelper  } from "../../../components/page_generator";
 
-import post_styles from "../../styles/Posts.module.css"
+import post_styles from "../../../styles/Posts.module.css"
 
-import matter from "gray-matter";
 var marked = require('marked-katex');
 import katex from 'katex';
+
+const file_path = "posts/rational_equations/examples";
 
 marked.setOptions({
 	kaTex: katex
@@ -53,35 +51,8 @@ export default function PostPage({ frontmatter: {
 }
 
 export async function getStaticPaths() {
-	const files = fs.readdirSync(path.join("pages/posts"));
-
-	debug_("files: " + files );
-	const paths = files.map(filename => ({
-		params: {
-			slug: filename.replace('.md', '')
-		} 
-	}))
-
-	return {
-		paths,
-		fallback: false,
-	}
+	return getStaticPathsHelper(file_path);
 }
-
 export async function getStaticProps({params: {slug}}) {
-	const md_path = path.join('pages/posts', slug + '.md');
-
-	const markdown_with_meta = fs.readFileSync(md_path, 'utf-8');
-
-	debug_("slug.js: " + markdown_with_meta);
-
-	const {data:frontmatter, content} = matter(markdown_with_meta)	
-
-	return {
-		props: {
-			frontmatter,
-			slug,
-			content,
-		}
-	}
+	return getStaticPropsHelper(file_path, slug);
 }

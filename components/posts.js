@@ -21,10 +21,6 @@ export default function Posts({props}) {
 			<h1>{props.frontmatter.title}</h1>
 			<h3>{props.frontmatter.date}</h3>
 			<h3>{props.frontmatter.excerpt}</h3>
-
-			<Link href={`/subpage/${props.slug}`}>
-				<a>Read More</a>
-			</Link>
 		</div>
 	)
 }
