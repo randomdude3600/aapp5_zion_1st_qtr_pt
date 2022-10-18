@@ -7,7 +7,7 @@ import { getStaticPathsHelper, getStaticPropsHelper  } from "../../../components
 import post_styles from "../../../styles/Posts.module.css"
 
 // var marked = require('marked-katex');
-import marked from "marked";
+import * as marked from "marked";
 import katex from 'katex';
 
 const file_path = "posts/rational_equations/examples";
