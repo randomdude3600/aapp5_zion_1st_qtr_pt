@@ -18,6 +18,7 @@ marked.setOptions({
 export default function PostPage({ frontmatter: {
 	title,
 	date,
+	excerpt,
 	cover_image
 }, slug, content }) {
 	
@@ -39,6 +40,7 @@ export default function PostPage({ frontmatter: {
 				/> : <></>				
 				)}
 				<h1>{title}</h1>
+				<h3>{excerpt}</h3>
 				<h4>{date}</h4>
 
 				<div className={post_styles.katex_container}>
