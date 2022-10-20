@@ -23,7 +23,7 @@
 	align-items: center;
 	height: 100%;
 
-	/* flex-wrap: wrap; */
+	flex-wrap: wrap;
 	justify-content: space-around;
 }
 
@@ -62,10 +62,6 @@
 @media only screen and (max-width: 600px) {
 	.navbar_item {
 		width: 100%;
-	}
-
-	.logo {
-		display: none;
 	}
 
 	.nav_link {

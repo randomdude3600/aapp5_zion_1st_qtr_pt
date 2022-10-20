@@ -7,7 +7,7 @@ import matter from "gray-matter";
 
 import debug_ from '../../components/debug_helper';
 
-import home_styles from '../../styles/Home.module.css';
+import inner_nav from '../../styles/InnerNav.module.css';
 
 import { getStaticPathsHelper  } from "../../components/page_generator";
 
@@ -24,20 +24,25 @@ export default function rational_equation({paths}) {
 			<main className={""}>
 				<h1>Rational Equations Page</h1>
 				<p>
-					What are rational Equations
-					lorem...
+					What are Rational Equations?
 				</p>
-				{paths.map((i, k) => {
-					return (
-						<div>
-							<Link key={k} href={`${cwd_file_path}/${i.params.slug}`}>
-								<a>go here</a>
-							</Link>
-							{debug_(`${cwd_file_path}/${i.params.slug}`)}
-						</div>
-					)
-				})}
-				</main>
+				<nav className={inner_nav.navbar}>
+					<ul className={inner_nav.navbar_nav}>
+						{paths.map((i, k) => {
+							return (
+								<li className={inner_nav.nav_item}>
+									<Link key={k} href={`${cwd_file_path}/${i.params.slug}`}><a className={inner_nav.nav_link}>
+										<span className={inner_nav.link_text}>{i.params.slug}</span>
+										</a>
+										</Link>
+									{debug_(`${cwd_file_path}/${i.params.slug}`)}
+								</li>
+							)
+						})}
+
+					</ul>
+				</nav>
+			</main>
 		</>	
 	)
 }
