@@ -5,7 +5,7 @@ excerpt: 'Rational Inequalities Video by Condor'
 last_image: '/img/posts/rational_inequalities_img_1.png'
 ---
 
-<iframe src="https://drive.google.com/file/d/13EGyD0uGqB1SAw7gIfdP8wQujHNUV3zf/preview" width="640" height="480" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/13EGyD0uGqB1SAw7gIfdP8wQujHNUV3zf/preview" width="100%" height="480" allow="autoplay"></iframe>
 
 <br>
 

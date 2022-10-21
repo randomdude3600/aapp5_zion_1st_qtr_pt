@@ -25,13 +25,11 @@
 
 /* have to make a false body */
 false_body {
-	transition: var(--transition-speed) ease;
-
 	position: fixed;
-	height: 100vh;
-	width: 100vw;
-	/* top: -50%;
-	left: -50%; */
+	height: 120vh;
+	width: 120vw;
+	top: -10%;
+	left: -10%;
 	
 	z-index: -10;
 
@@ -93,12 +91,12 @@ article:last-child {
 }
 
 .solar {
-	--text-primary: #d67382;
-	--text-secondary: #f08572;
-	--bg-primary: #fddb73;
-	--bg-secondary: #fbbb6c;
+	--text-primary: #e2435b;
+	--text-secondary: #e83110;
+	--bg-primary: #f8c427;
+	--bg-secondary: #ee8300;
 
-	--b-bg-primary: #f69d6d ;
+	--b-bg-primary: #f59a69 ;
 
 	--bg-image-brightness: 60%;
 

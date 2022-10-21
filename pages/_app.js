@@ -23,7 +23,8 @@ function MyApp({ Component, pageProps }) {
 	return (
 		<div className={currentTheme}>
 			<Nav theme={currentTheme} theme_callback={toggle_theme} theme_map={theme_map} />
-			<false_body></false_body>
+			{/* TODO: window resize event set transition property */}
+			<false_body style={{transition: 1 ? 'none' : '',}}></false_body>
 			<article>
 				<div className={`inner_root`}>
 					<Component {...pageProps} />

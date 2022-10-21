@@ -33,7 +33,7 @@ export default function PostPage({ frontmatter: {
 				<div className={post_styles.post_meta_data}>
 					{(cover_image ? 
 						<Image
-						className={``}
+							className={``}
 							width={`100pt`}
 							height={`100pt`}
 							src={cover_image}

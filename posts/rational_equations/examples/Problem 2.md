@@ -4,7 +4,7 @@ date: 'October 14, 2021'
 excerpt: 'Video by Jumao-as, solutions by: Chino, Condor'
 ---
 
-<iframe src="https://drive.google.com/file/d/1kQklPSd-PSbn9-uy7OOnCZPRHIhd5yYd/preview" width="640" height="480" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/1kQklPSd-PSbn9-uy7OOnCZPRHIhd5yYd/preview" width="100%" height="480" allow="autoplay"></iframe>
 
 <br>
 
