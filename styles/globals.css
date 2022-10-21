@@ -35,7 +35,7 @@ false_body {
 	
 	z-index: -10;
 
-	/* background-color: var(--b-bg-primary); */
+	background-color: var(--b-bg-primary);
 	background-image: var(--background-image);
 	
 	filter: blur(0.0rem) brightness(var(--bg-image-brightness));
