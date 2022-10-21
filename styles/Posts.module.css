@@ -3,13 +3,35 @@
 
     display: flex;
     flex-direction: column;
+    
+}
+
+.post_meta_data {
+    display: flex;
+    flex-direction: column;
+
     justify-content: center;
 
     text-align: center;
 
-    margin-top: 10rem;
+    align-items: center;
 }
 
-.katex_container {
+.post_meta_data h1 {
+    font-size: 2rem;
+}
 
+.post_meta_data h2 {
+    font-size: 1.5rem;
+}
+
+.post_meta_data p {
+    font-size: 1rem;
+}
+
+/* markdown html apply here */
+.post_content {
+    width: 60%;
+    margin: 3rem;
+    font-size: 2rem !important;
 }

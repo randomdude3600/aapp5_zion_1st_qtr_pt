@@ -10,7 +10,7 @@
 }
 
 .navbar:hover {
-    transition: all var(--transition-speed) ease;
+    transition: all var(--transition-speed) ease-in-out;
 	filter: grayscale(100%) opacity(0.9);
 }
 

@@ -3,11 +3,11 @@ import Head from 'next/head';
 import Link from 'next/link';
 
 import React, { useState, useEffect } from "react";
-import matter from "gray-matter";
 
 import debug_ from '../../components/debug_helper';
 
 import inner_nav from '../../styles/InnerNav.module.css';
+import post_styles from '../../styles/Posts.module.css';
 
 import { getStaticPathsHelper  } from "../../components/page_generator";
 
@@ -21,11 +21,16 @@ export default function rational_equation({paths}) {
 			<Head>
 				<title>Rational Equations</title>
 			</Head>
-			<main className={""}>
-				<h1>Rational Equations Page</h1>
-				<p>
-					What are Rational Equations?
-				</p>
+			<main className={post_styles.post_container}>
+				<div className={post_styles.post_meta_data}>
+					<h1>Rational Equations</h1>
+					<h2>
+						What are They?
+					</h2>
+					<p>
+						A rational equation is an equation containing at least one fraction whose numerator and denominator are polynomials
+					</p>
+				</div>
 				<nav className={inner_nav.navbar}>
 					<ul className={inner_nav.navbar_nav}>
 						{paths.map((i, k) => {
@@ -39,7 +44,6 @@ export default function rational_equation({paths}) {
 								</li>
 							)
 						})}
-
 					</ul>
 				</nav>
 			</main>
