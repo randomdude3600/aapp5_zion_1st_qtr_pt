@@ -28,9 +28,7 @@ export default function rational_functions({paths}) {
 					<h2>
 						What are They?
 					</h2>
-					<p>
-						lorem..
-					</p>
+					<p>Rational function is the ratio of two polynomial functions where the denominator polynomial is not equal to zero.</p>
 				</div>
 				<nav className={inner_nav.navbar}>
 					<ul className={inner_nav.navbar_nav}>

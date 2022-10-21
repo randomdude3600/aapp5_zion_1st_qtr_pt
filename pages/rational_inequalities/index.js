@@ -29,7 +29,7 @@ export default function rational_inequalities({paths}) {
 						What are They?
 					</h2>
 					<p>
-						lorem..
+						A rational inequality is an inequality which consists of a rational expression.
 					</p>
 				</div>
 				<nav className={inner_nav.navbar}>

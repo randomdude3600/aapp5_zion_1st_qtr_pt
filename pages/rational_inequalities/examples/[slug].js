@@ -19,7 +19,8 @@ export default function PostPage({ frontmatter: {
 	title,
 	date,
 	excerpt,
-	cover_image
+	cover_image,
+	last_image
 }, slug, content }) {
 	
 	const html = marked(content);
@@ -43,11 +44,13 @@ export default function PostPage({ frontmatter: {
 					<h1>{title}</h1>
 					<h2>{date}</h2>
 					<p>{excerpt}</p>
-				
+		
 				<div className={post_styles.post_content}>
 					<div dangerouslySetInnerHTML={{__html: html}}>
 					</div>
 				</div>
+
+					<img src={last_image}></img>
 				</div>
 
 			</div>

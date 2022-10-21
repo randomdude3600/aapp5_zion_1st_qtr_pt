@@ -28,7 +28,7 @@ excerpt: 'Work Problem Video by Condor'
 
 `$3x+2x=30$`
 
-`$5x5=30$`
+`$5*5=30$`
 
 `$x=6$` hrs.
 

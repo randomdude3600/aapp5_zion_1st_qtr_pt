@@ -9,19 +9,19 @@ excerpt: 'Number Problem Video by Condor'
 A fraction is equivalent to `$\frac{1}{2}$`. If both numerator and denominator is increased by `$3$`, the resulting fraction is `$\frac{4}{7}$`. What is the original fraction?
 
 <br>
-1st Equatiobn:
+1st Equation:
 <br>
 
 `$\frac{n}{d}=\frac{1}{2}$`
 
 <br>
-2nd Equatiobn:
+2nd Equation:
 <br>
 
 `$\frac{n}{d}+\frac{3}{3}=\frac{4}{7}$`
 
 <br>
-3rd Equatiobn:
+3rd Equation:
 <br>
 
 `$\frac{n}{d}=\frac{1}{2}$`
