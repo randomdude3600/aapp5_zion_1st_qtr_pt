@@ -9,13 +9,13 @@
 	width: 100%;
 	height: 5rem;
 
-	filter: grayscale(100%) opacity(0.5);
+	filter: opacity(0.7);
 	transition: var(--transition-speed);
 }
 
 .navbar:hover {
     transition: all var(--transition-speed) ease;
-	filter: grayscale(100%) opacity(0.9);
+	filter: opacity(0.9);
 }
 
 .navbar_nav {
@@ -40,12 +40,12 @@
 	height: 5rem;
 	color: var(--text-secondary);
 	text-decoration: none;
-	filter: grayscale(100%) opacity(0.7);
+	filter: opacity(0.7);
 	transition: var(--transition-speed);
 }
 
 .nav_link:hover {
-	filter: grayscale(0%) opacity(1);
+	filter: opacity(1);
 	background: var(--bg-secondary);
 }
 

@@ -1,7 +1,7 @@
 ---
 title: 'Example 1'
 date: 'October 14, 2021'
-excerpt: 'sample excerpt'
+excerpt: ' examples of rational equations'
 # cover_image: '/img/posts/test (1).png'
 ---
 

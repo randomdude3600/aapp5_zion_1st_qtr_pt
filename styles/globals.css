@@ -25,7 +25,7 @@
 
 /* have to make a false body */
 false_body {
-	transition: var(--transition-speed) ease-in;
+	transition: var(--transition-speed) ease;
 
 	position: fixed;
 	height: 100vh;
@@ -93,12 +93,12 @@ article:last-child {
 }
 
 .solar {
-	--text-primary: #576e75;
-	--text-secondary: #35535c;
-	--bg-primary: #fdf6e3;
-	--bg-secondary: #f8e1a0;
+	--text-primary: #d67382;
+	--text-secondary: #f08572;
+	--bg-primary: #fddb73;
+	--bg-secondary: #fbbb6c;
 
-	--b-bg-primary: #f1e080;
+	--b-bg-primary: #f69d6d ;
 
 	--bg-image-brightness: 60%;
 

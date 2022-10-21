@@ -8,24 +8,30 @@ import matter from "gray-matter";
 import debug_ from '../../components/debug_helper';
 
 import inner_nav from '../../styles/InnerNav.module.css';
+import post_styles from '../../styles/Posts.module.css';
 
 import { getStaticPathsHelper  } from "../../components/page_generator";
 
 const file_path = "posts/rational_inequalities/examples";
 const cwd_file_path = "rational_inequalities/examples";
 
-export default function rational_functions({paths}) {
+export default function rational_inequalities({paths}) {
 
 	return (
 		<>
 			<Head>
-				<title>Rational Equations</title>
+				<title>Rational Inequalities</title>
 			</Head>
-			<main className={""}>
-				<h1>Rational Function</h1>
-				<p>
-					What are Rational Inequalities
-				</p>
+			<main className={post_styles.post_container}>
+				<div className={post_styles.post_meta_data}>
+					<h1>Rational Inequalities</h1>
+					<h2>
+						What are They?
+					</h2>
+					<p>
+						lorem..
+					</p>
+				</div>
 				<nav className={inner_nav.navbar}>
 					<ul className={inner_nav.navbar_nav}>
 						{paths.map((i, k) => {
@@ -39,7 +45,6 @@ export default function rational_functions({paths}) {
 								</li>
 							)
 						})}
-
 					</ul>
 				</nav>
 			</main>

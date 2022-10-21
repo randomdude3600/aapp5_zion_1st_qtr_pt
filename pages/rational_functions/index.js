@@ -8,6 +8,7 @@ import matter from "gray-matter";
 import debug_ from '../../components/debug_helper';
 
 import inner_nav from '../../styles/InnerNav.module.css';
+import post_styles from '../../styles/Posts.module.css';
 
 import { getStaticPathsHelper  } from "../../components/page_generator";
 
@@ -19,13 +20,18 @@ export default function rational_functions({paths}) {
 	return (
 		<>
 			<Head>
-				<title>Rational Equations</title>
+				<title>Rational Functions</title>
 			</Head>
-			<main className={""}>
-				<h1>Rational Functions</h1>
-				<p>
-					What are Rational Functions?
-				</p>
+			<main className={post_styles.post_container}>
+				<div className={post_styles.post_meta_data}>
+					<h1>Rational Functions</h1>
+					<h2>
+						What are They?
+					</h2>
+					<p>
+						lorem..
+					</p>
+				</div>
 				<nav className={inner_nav.navbar}>
 					<ul className={inner_nav.navbar_nav}>
 						{paths.map((i, k) => {
@@ -39,7 +45,6 @@ export default function rational_functions({paths}) {
 								</li>
 							)
 						})}
-
 					</ul>
 				</nav>
 			</main>

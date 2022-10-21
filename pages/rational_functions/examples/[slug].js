@@ -30,23 +30,26 @@ export default function PostPage({ frontmatter: {
 				<title>{slug}</title>
 			</Head>
 			<div className={post_styles.post_container}>
-				{(cover_image ? 
-					<Image
-					className={``}
-						width={`100pt`}
-						height={`100pt`}
-						src={cover_image}
-						layout="intrinsic"
-				/> : <></>				
-				)}
-				<h1>{title}</h1>
-				<h3>{excerpt}</h3>
-				<h4>{date}</h4>
-
-				<div className={post_styles.katex_container}>
+				<div className={post_styles.post_meta_data}>
+					{(cover_image ? 
+						<Image
+						className={``}
+							width={`100pt`}
+							height={`100pt`}
+							src={cover_image}
+							layout="intrinsic"
+					/> : <></>				
+					)}
+					<h1>{title}</h1>
+					<h2>{date}</h2>
+					<p>{excerpt}</p>
+				
+				<div className={post_styles.post_content}>
 					<div dangerouslySetInnerHTML={{__html: html}}>
 					</div>
 				</div>
+				</div>
+
 			</div>
 		</>
 	)
