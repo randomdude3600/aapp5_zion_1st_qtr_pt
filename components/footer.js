@@ -16,8 +16,9 @@ const Footer = () => {
 				<p>1st Qtr AAPP PT</p>
 			</div>
 			<div className={footer_style.m_footer_elm}>
-				<h2>Made with</h2>
-				<h3>Nextjs Framework</h3>
+				<h2>Made by</h2>
+				<h3>Gian Cedrick G. Epilan</h3>
+				<h3>With Nextjs Framework</h3>
 				<p>
 					<a href="https://nextjs.org/"><u>here</u></a>
 				</p>
