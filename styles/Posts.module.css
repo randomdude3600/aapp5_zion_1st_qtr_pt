@@ -37,6 +37,8 @@
 
     align-content: center;
     text-align: center;
+
+    transition: var(--transition-speed) ease;
 }
 
 .post_content table{
@@ -52,4 +54,11 @@
 .post_content table td {
     border: 1px solid;
     padding: 1rem;
+}
+
+/* Small screens */
+@media only screen and (max-width: 600px) {
+    .post_content {
+        width: 90%;
+    }
 }
