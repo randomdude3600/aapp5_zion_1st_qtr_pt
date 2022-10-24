@@ -10,17 +10,19 @@
 	font-size: 1rem;
 	font-family: 'Open Sans';
 
-	--text-primary: #b6b6b6;
-	--text-secondary: #ececec;
-	--bg-primary: #23232e;
-	--bg-secondary: #141418;
+	--text-primary: rgb(193, 9, 31);
+	--text-secondary: rgb(246,81,23);
+	--bg-tertiary: rgb(254, 211, 131);
+	--bg-primary: rgb(249,161,41);
+	--bg-secondary: rgb(253,216,30);
+
+	--b-bg-primary: #ffc8ac;
+	
 	--transition-speed: 600ms;
 
-	--b-bg-primary: #3e3e51;
+	--bg-image-brightness: 100%;
 
-	--bg-image-brightness: 50%;
-
-	--background-image: url(/img/background/studying-dark.jpeg);
+	--background-image: url(/img/background/pochita.png);
 }
 
 /* have to make a false body */
@@ -64,45 +66,6 @@ article:last-child {
 	min-height: 100vh;
 }
 
-.dark {
-	--text-primary: #3f3c3c;
-	--text-secondary: #ececec;
-	--bg-primary: #23232e;
-	--bg-secondary: #141418;
-
-	--b-bg-primary: #3e3e51;
-
-	--bg-image-brightness: 50%;
-
-	--background-image: url(/img/background/studying-dark.jpeg);
-}
-
-.light {
-	--text-primary: #1f1f1f;
-	--text-secondary: #000000;
-	--bg-primary: #ffffff;
-	--bg-secondary: #e4e4e4;
-
-	--b-bg-primary: #ffffff;
-
-	--bg-image-brightness: 90%;
-
-	--background-image: url(/img/background/studying-day.webp);
-}
-
-.solar {
-	--text-primary: #e2435b;
-	--text-secondary: #e83110;
-	--bg-primary: #f8c427;
-	--bg-secondary: #ee8300;
-
-	--b-bg-primary: #f59a69 ;
-
-	--bg-image-brightness: 60%;
-
-	--background-image: url(/img/background/studying-sunny.webp);
-}
-
 body {
 	overflow-x: hidden;
 }
@@ -113,11 +76,11 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-	background: var(--bg-primary);
+	background: var(--b-bg-primary);
 }
 
 body::-webkit-scrollbar-thumb {
-	background: var(--b-bg-primary);
+	background: var(--bg-primary);
 }
 
 a {

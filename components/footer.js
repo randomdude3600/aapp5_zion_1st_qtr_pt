@@ -5,10 +5,10 @@ const Footer = () => {
 		<div className={footer_style.m_footer}>
 			<div className={footer_style.m_footer_elm}>
 				<h2>Members</h2>
-				<h3>GROUP 5</h3>
-				<p>Epilan Gian Cedrick G.</p>
-				<p>Condor Chino Miguel</p>
-				<p>Johann Terence Jumao-as</p>
+				<h3>GROUP </h3>
+				<p>Daniel Benedict, Aracan</p>
+				<p>Angel Casaer, Farrarons</p>
+				<p>Zion, Delos Angelos</p>
 			</div>
 			<div className={footer_style.m_footer_elm}>
 				<h2>INFO</h2>

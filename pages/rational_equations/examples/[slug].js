@@ -33,7 +33,7 @@ export default function PostPage({ frontmatter: {
 				<div className={post_styles.post_meta_data}>
 					{(cover_image ? 
 						<Image
-							className={``}
+						className={``}
 							width={`100pt`}
 							height={`100pt`}
 							src={cover_image}
@@ -43,13 +43,11 @@ export default function PostPage({ frontmatter: {
 					<h1>{title}</h1>
 					<h2>{date}</h2>
 					<p>{excerpt}</p>
-				
+				</div>
 				<div className={post_styles.post_content}>
 					<div dangerouslySetInnerHTML={{__html: html}}>
 					</div>
 				</div>
-				</div>
-
 			</div>
 		</>
 	)

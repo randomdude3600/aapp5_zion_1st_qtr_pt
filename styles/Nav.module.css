@@ -1,7 +1,7 @@
 .navbar {
 	position: fixed;
 	z-index: 5;
-	background-color: var(--bg-primary);
+    background-color: var(--bg-secondary);
 	transition: width 600ms ease;
 	overflow: hidden;
 
@@ -9,13 +9,13 @@
 	width: 100%;
 	height: 5rem;
 
-	filter: opacity(0.7);
+	filter: opacity(0.8);
 	transition: var(--transition-speed);
 }
 
 .navbar:hover {
     transition: all var(--transition-speed) ease;
-	filter: opacity(0.9);
+	filter: opacity(1);
 }
 
 .navbar_nav {
@@ -40,13 +40,13 @@
 	height: 5rem;
 	color: var(--text-secondary);
 	text-decoration: none;
-	filter: opacity(0.7);
+	filter: opacity(0.9);
 	transition: var(--transition-speed);
 }
 
 .nav_link:hover {
 	filter: opacity(1);
-	background: var(--bg-secondary);
+	background: var(--bg-primary);
 }
 
 .nav_link svg {
@@ -58,19 +58,6 @@
 .link_text {
 	display: none;
 	margin-left: 1rem;
-}
-
-.fa_primary {
-	color: #ff7eee;
-}
-
-.fa_secondary {
-	color: #df49a6;
-}
-
-.fa_primary,
-.fa_secondary {
-	transition: var(--transition-speed);
 }
 
 .logo {

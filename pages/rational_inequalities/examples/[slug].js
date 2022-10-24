@@ -44,15 +44,11 @@ export default function PostPage({ frontmatter: {
 					<h1>{title}</h1>
 					<h2>{date}</h2>
 					<p>{excerpt}</p>
-		
+				</div>
 				<div className={post_styles.post_content}>
 					<div dangerouslySetInnerHTML={{__html: html}}>
 					</div>
 				</div>
-
-					<img src={last_image}></img>
-				</div>
-
 			</div>
 		</>
 	)
