@@ -12,7 +12,7 @@ const Footer = () => {
 			</div>
 			<div className={footer_style.m_footer_elm}>
 				<h2>INFO</h2>
-				<h3>11-VANDOR</h3>
+				<h3>11-marksdfsifjd</h3>
 				<p>1st Qtr AAPP PT</p>
 			</div>
 			<div className={footer_style.m_footer_elm}>
