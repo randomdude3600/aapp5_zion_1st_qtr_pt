@@ -7,6 +7,7 @@ import React, { useState, useEffect } from "react";
 import debug_ from '../components/debug_helper';
 
 import inner_nav from '../styles/InnerNav.module.css';
+import post_styles from '../styles/InnerNav.module.css';
 
 import FunctionIcon from '../public/svg/function-solid.svg';
 import EqualsIcon from '../public/svg/equals-solid.svg';

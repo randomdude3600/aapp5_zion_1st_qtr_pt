@@ -1,45 +1,53 @@
 ---
 title: 'Work Problem'
-date: 'October 21, 2022'
-excerpt: 'Work Problem Video by Condor'
+date: 'October 27, 2022'
+excerpt: 'Work Problem *credit name*'
 ---
 
-<iframe src="https://drive.google.com/file/d/1jcEsn9yhlsIRH02MOt8unIrZLc-sUOOx/preview" width="100%" height="480" allow="autoplay"></iframe>
-
-<p>
-	It will take you 10 hours to paint your garage and it will take your brother 15 hours to do the same job. How long will it take if the two of you work together to paint the garage?
-</p>
-
-<br>
-	Given:
-<br>
-
-`$I = 10$` hrs.
-
-`$B = 15$` hrs.
-
-`$T = I+B=x$`
-
-<br>
-	Solution:
-<br>
-
-`$[\frac{1}{10}+\frac{1}{15}=\frac{1}{x}]30x$`
+Sam can paint a house in 5 hours. Gary can do it in 4 hours. How long
+will it take the two working together?
 
 <br>
 
-`$3x+2x=30$`
+|Gary|Sam|
+|--|--|
+|`$\frac{1}{4}$`|`$\frac{1}{5}$`|
+|`$\frac{2}{4}$`|`$\frac{2}{5}$`|
+|`$\frac{3}{4}$`|`$\frac{3}{5}$`|
+||`$\frac{5}{5}$`|
+
+`$\frac{x}{4}+\frac{x}{5}=1$`
 
 <br>
 
-`$5*5=30$`
+time `$\frac{together}{workingalone_!}+\frac{together}{workingalone_2}$`
 
 <br>
 
-`$x=6$` hrs.
+`$\begin{bmatrix}\frac{x}{4}+\frac{x}{5}=1\end{bmatrix}20$`
 
 <br>
-	Conclusion:
+
+LCD `$=20$`
+
 <br>
 
-<p>It will take 6 hours if the two of us work together to paint the garage.</p>
+`$(\frac{x}{4})(\frac{20}{1})+(\frac{x}{5})(\frac{20}{1})$`
+
+<br>
+
+`$(\frac{x}{1})(\frac{5}{1})+(\frac{x}{1})(\frac{4}{1})$`
+
+<br>
+
+`$5x+4x=20$`
+
+<br>
+
+`$\frac{9x}{9}=\frac{20}{9}$`
+
+<br>
+
+`$x=\frac{20}{9}=2\frac{2}{9}$`
+
+<br>

@@ -27,6 +27,9 @@ const Nav = ({ theme, theme_callback, toggle_callback }) => {
 					</Link>
 				</li>
 				<li className={nav_styles.nav_item}>
+					<h1>AAPP 5</h1>
+				</li>
+				<li className={nav_styles.nav_item}>
 					<Link href="https://github.com/randomdude3600/aapp5_zion_1st_qtr_pt"><a className={nav_styles.nav_link}>
 						<GithubBrandIcon/>
 						<span className={nav_styles.link_text}>Repo</span>

@@ -12,8 +12,7 @@
 
     font-size: 0.8rem;
 
-	filter: opacity(0.8);
-	transition: var(--transition-speed);
+	filter: opacity(0.9);
 }
 
 .m_footer_elm>* {
@@ -22,11 +21,6 @@
 
     color: var(--text-primary);
     border-color: var(--b-bg-primary);
-}
-
-.m_footer:hover {
-    transition: all var(--transition-speed) ease;
-	filter: opacity(1);
 }
 
 .m_footer_elm.ul {

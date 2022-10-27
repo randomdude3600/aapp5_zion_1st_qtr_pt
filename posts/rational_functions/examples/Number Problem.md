@@ -1,92 +1,37 @@
 ---
 title: 'Number Problem'
-date: 'October 21, 2022'
-excerpt: 'Number Problem Video by Condor'
+date: 'October 27, 2022'
+excerpt: 'Number Problem Video by *credit_name*'
 ---
 
-<iframe src="https://drive.google.com/file/d/1LOLOiTBxU4Qyd7h0a7vCNN-DuspYiqc_/preview" width="100%" height="480" allow="autoplay"></iframe>
-
-A fraction is equivalent to `$\frac{1}{2}$`. If both numerator and denominator is increased by `$3$`, the resulting fraction is `$\frac{4}{7}$`. What is the original fraction?
-
-<br>
-1st Equation:
-<br>
-
-`$\frac{n}{d}=\frac{1}{2}$`
-
-<br>
-2nd Equation:
-<br>
-
-`$\frac{n}{d}+\frac{3}{3}=\frac{4}{7}$`
-
-<br>
-3rd Equation:
-<br>
-
-`$\frac{n}{d}=\frac{1}{2}$`
-
-`$2n=d$`
-
-<br>
-Solution:
-<br>
-
-`$\frac{n+3}{d+3}=\frac{4}{7}$`
+`$f$` is a function defined by
 
 <br>
 
-`$7(n+3)=4(d+3)$`
+`$f(x)=\begin{Bmatrix}2x+4|x\leq2\\2x-1|x\gt2\end{Bmatrix}$`
 
 <br>
 
-`$7n+21=4d+12$`
+Find `$f(0)$`, `$f(2)$`, `$f(4)$`.
 
 <br>
 
-`$7n+21=4(2n)+12$`
+Solution
 
 <br>
 
-`$7n+8n=12-21$`
+`$f(0)$` is found by substituting `$x$` by `$0$` in the formula.
 
-<br>
+`$f(x)=2x+4$` since 0 is less than 2.
 
-`$-n = -9$`
+`$f(0)=4$`
 
-<br>
+`$f(2)$` is found by substituting `$x$` by `$2$` in the formula.
 
-`$N=9$`
+`$f(2)=2^2+4=8$`
 
-<br>
+`$f(4)$` is found by substituting `$x$` by `$4$` in the formula.
 
-`$2n=d$`
+`$f(x)=2x-1$` since `$4$` is greater than `$2$`
 
-<br>
-
-`$2(9)=d$`
-
-<b>`$d=18$`<b>
-
-<br>
-Check:
-<br>
-
-`$\frac{n+3}{d+3}=\frac{4}{7}$`
-
-`$\frac{9+3}{18+3}=\frac{4}{7}$`
-
-
-`$\frac{12}{21}=\frac{4}{7}$`
-
-`$\frac{4}{7}=\frac{4}{7}$`
-
-<br>
-Conclusion:
-<br>
-
-<p>The original fraction of the problem is `$\frac{9}{18}$`</p>
-
-
-
-
+`$f(4)=2*4-1=7$`
