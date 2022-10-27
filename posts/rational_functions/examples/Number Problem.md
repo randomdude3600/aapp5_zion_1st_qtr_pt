@@ -34,4 +34,4 @@ Solution
 
 `$f(x)=2x-1$` since `$4$` is greater than `$2$`
 
-`$f(4)=2*4-1=7$`
+`$f(4)=(2)4-1=7$`

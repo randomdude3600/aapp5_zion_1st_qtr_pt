@@ -20,7 +20,7 @@ will it take the two working together?
 
 <br>
 
-time `$\frac{together}{workingalone_!}+\frac{together}{workingalone_2}$`
+time `$\frac{together}{workingalone_1}+\frac{together}{workingalone_2}$`
 
 <br>
 
