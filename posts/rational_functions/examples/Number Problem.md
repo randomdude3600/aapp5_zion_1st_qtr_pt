@@ -1,7 +1,7 @@
 ---
 title: 'Number Problem'
 date: 'October 27, 2022'
-excerpt: 'Number Problem Video by *credit_name*'
+excerpt: 'by: null'
 ---
 
 `$f$` is a function defined by
@@ -34,4 +34,4 @@ Solution
 
 `$f(x)=2x-1$` since `$4$` is greater than `$2$`
 
-`$f(4)=(2)4-1=7$`
+`$\boxed{f(4)=(2)4-1=7}$`

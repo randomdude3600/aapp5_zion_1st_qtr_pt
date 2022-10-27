@@ -1,42 +1,31 @@
 ---
 title: 'Example 1'
-date: 'October 21, 2022'
-excerpt: 'Rational Inequalities Video by Condor'
-last_image: '/img/posts/rational_inequalities_img_1.png'
+date: 'October 27, 2022'
+excerpt: 'by: null'
 ---
 
-<iframe src="https://drive.google.com/file/d/13EGyD0uGqB1SAw7gIfdP8wQujHNUV3zf/preview" width="100%" height="480" allow="autoplay"></iframe>
+Solve:
 
 <br>
 
-`$\frac{3}{x} + \frac{2}{x}$` > `$1-\frac{4}{x}$`
+`$\frac{2x+10}{x+3}\geq1$`
 
 <br>
 
-`$\frac{3}{x}+\frac{2}{x}+\frac{4}{x}-1$` > `$0$`
+`$\frac{2x+10}{x+3}-1\ge1-1$`
 
 <br>
 
-`$\frac{9}{x}-1$` > `$0$`
+`$\frac{2x+10}{x+3}\ge0$`
 
 <br>
 
-`$\frac{9-x}{x}$`>`$0$`
+`$\frac{2x+10}{x+3}-1\begin{pmatrix}x+3\\x+3\end{pmatrix}\geq0$`
 
 <br>
 
-`$9-x=0$`
+`$\frac{2x+10}{x+3}-\frac{x+3}{x+3}\ge0$`
 
 <br>
 
-`$\frac{-x}{-1}=\frac{-9}{-1}$`
-
-<br>
-
-`$X = 9$`
-
-`$X = 0$`
-
-<br>
-
-Solution: 0 < x < 9
+`$\boxed{\frac{x+7}{x+3}\ge0}$`

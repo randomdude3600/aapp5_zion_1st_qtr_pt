@@ -1,7 +1,7 @@
 ---
 title: 'Work Problem'
 date: 'October 27, 2022'
-excerpt: 'Work Problem *credit name*'
+excerpt: 'by: null'
 ---
 
 Sam can paint a house in 5 hours. Gary can do it in 4 hours. How long
@@ -48,6 +48,6 @@ LCD `$=20$`
 
 <br>
 
-`$x=\frac{20}{9}=2\frac{2}{9}$`
+`$\boxed{x=\frac{20}{9}=2\frac{2}{9}}$`
 
 <br>

@@ -1,39 +1,66 @@
 ---
 title: 'Problem 1'
-date: 'October 14, 2021'
-excerpt: 'Video by Jumao-as, solutions by: Chino, Condor'
+date: 'October 27,, 2021'
+excerpt: 'by: null'
 ---
 
-<iframe src="https://drive.google.com/file/d/1kQklPSd-PSbn9-uy7OOnCZPRHIhd5yYd/preview" width="100%" height="480" allow="autoplay"></iframe>
+Solve:
 
 <br>
 
-`$\frac{5x}{6}+\frac{1}{3}=\frac{7}{12}$`
+`$\frac{1}{x-4}+\frac{1}{x-2}=\frac{2}{x^2-6x+8}$`
 
 <br>
 
-`$[\frac{5x}{6}+\frac{1}{3}=\frac{7}{12}]12$`
+`$\frac{1}{x-4}+\frac{1}{x-2}=\frac{2}{x^2-6x+8}$`
 
 <br>
 
-`$[\frac{5x(12)}{6}+\frac{1(12)}{3}=\frac{7(12)}{12}]12$`
+Restrictions
 
 <br>
 
-`$5x(2)+4=7$`
+`$x\ne2$`
+
+`$x\ne4$`
 
 <br>
 
-`$10x+4=7$`
+`$\frac{1}{x-4}+\frac{1}{x-2}=\frac{2}{(x-2)(x-4)}$`
 
 <br>
 
-`$10x = 7 - 4$`
+`$(x-2)(x-4)(\frac{1}{(x-4)}+\frac{x}{(x-2)})=(\frac{2}{(x-2)(x-4)})(x-2)(x-4)$`
 
 <br>
 
-`$\frac{10x}{10} = \frac{3}{10}$`
+`$(x-2)+x(x-4)=2$`
 
 <br>
 
-`$x=\frac{3}{10}$`
+`$x-2+x^2-4x=2$`
+
+<br>
+
+`$x^2-3x-4=0$`
+
+<br>
+
+`$(x-4)(x+1)$`
+
+<br>
+
+`$x-4=0$` or `$x+1=0$`
+
+<br>
+
+`$x=4$` or `$x=-1$`
+
+<br>
+
+Restriction
+
+Solution Set: `$\boxed{\set{-1}}$`
+
+
+

@@ -1,7 +1,7 @@
 ---
 title: 'Motion Problem'
 date: 'October 27, 2022'
-excerpt: 'Motion Problem by *Credit Name*'
+excerpt: 'by: null'
 ---
 
 <!-- `$$` -->
@@ -71,4 +71,4 @@ rate `$with$` the wind.
 
 <br>
 
-Answer: Melody's speed with the wind was `$11mph$`
+Answer: Melody's speed with the wind was `$\boxed{11mph}$`

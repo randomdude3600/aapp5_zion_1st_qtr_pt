@@ -1,35 +1,27 @@
 ---
 title: 'Problem 2'
-date: 'October 14, 2021'
-excerpt: 'Video by Jumao-as, solutions by: Chino, Condor'
+date: 'October 27, 2021'
+excerpt: 'by: null'
 ---
 
-<iframe src="https://drive.google.com/file/d/1kQklPSd-PSbn9-uy7OOnCZPRHIhd5yYd/preview" width="100%" height="480" allow="autoplay"></iframe>
+Solve
+
+<br> 
+
+`$\frac{7}{x+3}-\frac{x}{4}$`
 
 <br>
 
-`$\frac{5x}{2}+\frac{x-2}{8}=2$`
+`$x(x+3)=28$`
 
 <br>
 
-`$[\frac{5x}{2}+\frac{x-2}{8}=2]8$`
+`$x^2+3x+28=0$`
 
 <br>
 
-`$[\frac{5x(8)}{2}+\frac{x-2(8)}{8}=2]8(8)$`
+`$(x+7)(x-4)=0$`
 
 <br>
 
-`$5x(4)+x-2=16$`
-
-<br>
-
-`$20x+x=16$`
-
-<br>
-
-`$\frac{21x}{21}={18}{21}$`
-
-<br>
-
-`$x={6}{7}$`
+`$\boxed{\begin{bmatrix}x=-7\\x=4\end{bmatrix}}$`
